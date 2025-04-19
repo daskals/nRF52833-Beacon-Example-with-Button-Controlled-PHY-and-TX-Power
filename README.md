@@ -8,7 +8,6 @@ This project is a customized beacon application built on the **nRF5 SDK 17.1.0**
 - Dynamic PHY switching (1 Mbps ↔ Coded PHY) via **Button 1**
 - Dynamic TX power switching (4 dBm ↔ 8 dBm) via **Button 2**
 - LED indicators for current PHY and TX power modes
-- Incrementing payload for each advertising packet
 
 ## 📍 Project Location in SDK
 
@@ -18,7 +17,7 @@ nRF5_SDK_17.1.0_ddde560/examples/ble_peripheral/ble_app_beacon_custom/
 
 ## 🧠 Features
 
-- Non-connectable extended advertising using manufacturer-specific data
+- Non-connectable extended advertising using a byte stream
 - Periodic payload updates every 2 seconds
 - Uses:
   - `bsp_board_led_on()` for PHY and TX power indication
@@ -29,12 +28,9 @@ nRF5_SDK_17.1.0_ddde560/examples/ble_peripheral/ble_app_beacon_custom/
 1. Place this project under:
 nRF5_SDK_17.1.0_ddde560/examples/ble_peripheral/
 
+2. Open the `ble_app_beacon_pca10100_s140_Release.emProject` workspace in \pca10100\s140\ses with  **SEGGER Embedded Studio**.
 
-2. Open the `ble_app_beacon_custom.eww` workspace in **SEGGER Embedded Studio**.
-
-3. Select target: **pca10100 (nRF52833 DK)**.
-
-4. Compile and flash.
+3. Compile and flash.
 
 ## 🧪 Button Functions
 
@@ -52,14 +48,10 @@ nRF5_SDK_17.1.0_ddde560/examples/ble_peripheral/
 
 Nordic Semiconductor License (from nRF5 SDK). See license terms in the `main.c` file.
 
-## 👤 Author
-
-Spyros Daskalakis
-
 ## 📂 Related
 
-- [nRF5 SDK v17.1.0](https://www.nordicsemi.com/Products/Development-software/nRF5-SDK)
-- [nRF52833 DK](https://www.nordicsemi.com/Products/nRF52833)
+- [nRF5 SDK](https://www.nordicsemi.com/Products/Development-software/nRF5-SDK)
+- [nRF52833](https://www.nordicsemi.com/Products/nRF52833)
 
 
 
