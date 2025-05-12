@@ -12,8 +12,7 @@ This project is a customized beacon application built on the **nRF5 SDK 17.1.0**
 ## 📍 Project Location in SDK
 
 This project should be placed in:
-nRF5_SDK_17.1.0_ddde560/examples/ble_peripheral/ble_app_beacon_custom/
-
+`nRF5_SDK_17.1.0_ddde560/examples/ble_peripheral/`
 
 ## 🧠 Features
 
@@ -25,12 +24,20 @@ nRF5_SDK_17.1.0_ddde560/examples/ble_peripheral/ble_app_beacon_custom/
 
 ## 🛠️ Setup
 
-1. Place this project under:
-nRF5_SDK_17.1.0_ddde560/examples/ble_peripheral/
+* **SDK Version:** nRF5 SDK 17.1.0  
+* **SoftDevice:** S140  
+* **Toolchain:** SEGGER Embedded Studio or GCC  
+  ➤ Tested with **SEGGER Embedded Studio for ARM v5.42a**  
 
-2. Open the `ble_app_beacon_pca10100_s140_Release.emProject` workspace in \pca10100\s140\ses with  **SEGGER Embedded Studio**.
+### 📁 To run this project:
 
-3. Compile and flash.
+1. Place the folder under:  
+   `nRF5_SDK_17.1.0_ddde560\examples\ble_peripheral\`
+
+2. Open and run the project file `ble_app_beacon_pca10100_s140_Release.emProject` located in:  
+   `pca10100\s140\ses\`
+
+3. Compile and flash the application to the nRF52833 DK.
 
 ## 🧪 Button Functions
 
@@ -52,6 +59,5 @@ Nordic Semiconductor License (from nRF5 SDK). See license terms in the `main.c` 
 
 - [nRF5 SDK](https://www.nordicsemi.com/Products/Development-software/nRF5-SDK)
 - [nRF52833](https://www.nordicsemi.com/Products/nRF52833)
-
 
 
